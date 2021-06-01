@@ -2,6 +2,8 @@
 
 # About :
 
+![Easy-iso](https://user-images.githubusercontent.com/49924401/120349534-7aa44600-c2fe-11eb-82cd-85b130c8727b.gif)
+
 Easy-ISO is a Free open-source software designed to creat an ISO image of files from your computer to burn them onto a disc or run on Virtual Machine, or other.
 
 The Iso can be Bootable on Uefi/Bios or not bootable
