@@ -12,9 +12,9 @@ The way Free Easy-ISO works is quite simple : chose the source folder, and outpu
 
 # The software :
 
-The software exist on two mode :
-on portabl version
-or ps1 script 
+The software exist on two mode 
+- on portabl version
+- or ps1 script 
 
 Easy-Icd use the microsoft "OSCDIMG" to generate a Iso file
 
