@@ -2,7 +2,7 @@
 
 Easy-ISO is a Free software designed to creat an ISO image of files from your computer to burn them onto a disc or run on Virtual Machine, or other.
 
-The way Free Create-Burn ISO works is quite simple: being able to drag and drop content on the main windows makes it much easier to manage files and folders before creating the ISO file and burning CD's and DVD's.
+The way Free Create-Burn ISO works is quite simple: chose the source folder, and output then clic button create ISO.
 
 This main window has all the information you need to create a new recording project. Free Create-Burn ISO Image lets you create data CDs or DVDs with specific options to choose whatever it is you need.
 
