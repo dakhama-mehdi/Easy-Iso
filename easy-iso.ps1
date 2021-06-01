@@ -940,7 +940,7 @@ function Show-MainForm_psf
 		}
 		else
 		{
-			Split-Path $script:MyInvocation.MyCommand.Path
+			#Split-Path $script:MyInvocation.MyCommand.Path
 		}
 	}
 	
