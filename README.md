@@ -12,12 +12,18 @@ The way Free Easy-ISO works is quite simple : chose the source folder, and outpu
 
 # The software :
 
-The software exist on two mode 
-- on portabl version
-- or ps1 script 
+The software exist on version
+- on portabl version without install
+- Powershell Script 
+
+# Note :
 
 Easy-Icd use the microsoft "OSCDIMG" to generate a Iso file
 
 if you download ps1 script you mus add the source folder also
+
+# More :
+
+Easy-Iso exist on two version : English et Frensh, language is auto choose
 
 
