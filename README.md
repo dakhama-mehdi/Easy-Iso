@@ -14,7 +14,6 @@ The software exist on two mode :
 on portabl version
 or ps1 script 
 
-
 Easy-Icd use the microsoft "OSCDIMG" to generate a Iso file
 
 if you download ps1 script you mus add the source folder also
