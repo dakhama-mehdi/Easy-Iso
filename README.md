@@ -24,6 +24,5 @@ if you download ps1 script you mus add the source folder also
 
 # More :
 
-Easy-Iso exist on two version : English et Frensh, language is auto choose
-
+Easy-Iso exist on two version : English et Frensh, language is automatically selected
 
