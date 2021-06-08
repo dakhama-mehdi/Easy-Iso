@@ -284,8 +284,8 @@ function Show-MainForm_psf
 	
 	$buttonCreateISOFromFolder_Click={
 		#TODO: Place custom script here
-		$var1 = $textbox3.Text
-		$var2 = $textbox2.Text
+		$var1 = "'" + $textbox3.Text + "'"
+		$var2 = "'" + $textbox2.Text + "'"
 		
 			
 			$string = $null
@@ -303,12 +303,12 @@ function Show-MainForm_psf
 		{
 			if ($checkboxBootable.Checked -eq $true)
 			{
-				$process = Start-Process cmd -Argument "/c .\source\oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,b.\source\etfsboot.com#pEF,e,b.\source\efisys.bin $var1 $var2 " -PassThru -Wait
+				$process = Start-Process powershell -Argument "/c .\source\oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,b.\source\etfsboot.com#pEF,e,b.\source\efisys.bin $var1 $var2 " -PassThru -Wait
 				
 			}
 			else
 			{
-				$process = Start-Process cmd -Argument "/c .\source\oscdimg.exe -n -d -m $var1 $var2 " -PassThru -Wait
+				$process = Start-Process powershell -Argument "/c .\source\oscdimg.exe -n -d -m $var1 $var2 " -PassThru -Wait
 				
 			}
 			if ($process.ExitCode -eq '1')
@@ -632,7 +632,7 @@ function Show-MainForm_psf
 	
 	$aboutToolStripMenuItem_Click={
 		#TODO: Place custom script here
-		[System.Windows.Forms.MessageBox]::Show("Developped By : Dakhama Mehdi`r`n`r`nContribution : Matthieu Souin `r`n`r`nVersion 1.0 `r`nRelease   05/2021`r`nMicrosoft Windows NT 10.0.17763`r`n", 'About Easy-ISO')
+		[System.Windows.Forms.MessageBox]::Show("Developped By : Dakhama Mehdi`r`n`r`nContribution : Matthieu Souin `r`n`r`nVersion 1.0 `r`nRelease   06/2021`r`nMicrosoft Windows NT 10.0.17763`r`n", 'About Easy-ISO')
 		
 	}
 	
